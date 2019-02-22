@@ -1,0 +1,2 @@
+import pir
+pir.main()
