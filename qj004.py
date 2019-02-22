@@ -13,6 +13,16 @@
 	3-4		Feedback		2		command dependent
 	4		End				1		0xEF
 
+	# 5 byte commands
+
+	Pos		Description 	Bytes	Value
+	0 		Start			1		0x7E
+	1		Length			1		0x04 or 0x06
+	2		Command			1		see below
+	3		Argument		1		command dependent
+	4		End				1		0xEF
+
+
 	6 byte commands:
 	Pos		Description 	Bytes	Value
 	0 		Start			1		0x7E
